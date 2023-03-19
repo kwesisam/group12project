@@ -1,0 +1,172 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+main{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+    margin-top: -40px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 99%;
+    position: relative;
+    left: -10px;
+    text-transform: uppercase;
+
+}
+li{
+    list-style-type: none;
+}
+        .log{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px ;
+    margin-bottom: -20px;
+}
+.log .log_name{
+    margin-top: 17px;
+    margin-left: 5px;
+    font-size: x-large;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+   }
+
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+.sideBar{
+    width: 280px;
+    background-color: #d8c3a5;
+    box-sizing: border-box;
+    height: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 7;
+    height: 700px;
+}
+
+.sideBar h2{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    background-color: gray;
+    margin-top: 30px;
+    height: 50px;
+}
+
+.sideBar a{
+    margin-bottom: 10px;
+    border: 2px solid black;
+    display: block;
+    width: inherit;
+    height: inherit;
+    padding: 10px ;
+    text-align: center;
+}
+
+.sideBar a:hover{
+    transition-delay: .2s;
+    color: white;
+    background-color: #e85a4f;
+}
+
+.sideBar li{
+    margin: 30px;
+    text-align: left;
+    margin-left: -30px;
+}
+section{
+    box-shadow: 2px 20px 40px gray;
+}
+.banner
+{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.overwrite
+{
+    position: absolute;
+    top: 30%;
+    font-family: system-ui;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+    color: black;
+    text-transform: capitalize;
+
+
+}
+
+
+.pass
+{
+    width: 90%;
+    margin: 0 auto;
+    margin-left: 170px;
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 50px;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.text
+{
+    width: 550px;
+    color: black; 
+    padding-top: 5%;
+    margin-top: 20px;
+    line-height: 25px;
+    margin: 0 auto;
+}
+.image img
+{
+    width:450px;
+    height: 400px;
+    margin-top: 40px;
+    margin-right: 10px;
+    
+    
+}
+.container
+{
+    margin: 0;
+    padding: 0;
+
+}
+.row
+{
+    position: relative;
+    width: 100%;
+    margin: 0% auto;
+
+}
+
+footer {
+background-color: gray;
+width: 700px;
+padding: 20px;
+margin-top: 50px;
+text-align: center;
+font-size: 14px;
+position: relative;
+left: -100px;
+font-family: Arial, sans-serif;
+color: white;
+border-top: 1px solid #CCCCCC;
+}

@@ -1,0 +1,154 @@
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color:gray;
+            margin: 0;
+            padding: 0;
+        } 
+
+        main{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+        .log{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px ;
+    margin-bottom: -20px;
+}
+.log .log_name{
+    margin-top: 17px;
+    margin-left: 5px;
+    font-size: x-large;
+}
+.logo{
+    width: 60px;
+    height: 60px;   
+}
+.logo img{
+    margin-top: 5px;
+     width: 60px;
+    height: 60px;
+}
+.sideBar{
+    width: 250px;
+    background-color: #d8c3a5;
+    box-sizing: border-box;
+    height: 700px;
+    position: sticky;
+    top: 0;
+}
+
+.sideBar h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sideBar a{
+    margin-bottom: 10px;
+    border: 2px solid black;
+    display: block;
+    width: inherit;
+    height: inherit;
+    padding: 6px ;
+    text-align: center;
+}
+
+.sideBar a:hover{
+    transition-delay: .2s;
+    color: white;
+    background-color: #e85a4f;
+}
+
+.sideBar li{
+    margin: 30px;
+    text-align: left;
+    margin-left: -30px;
+}
+footer {
+background-color: gray;
+padding: 20px;
+margin-top: 50px;
+text-align: center;
+font-size: 14px;
+font-family: Arial, sans-serif;
+color: #666666;
+border-top: 1px solid #CCCCCC;
+color: white;
+font-size: x-large;
+}
+.container {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+background-color: white;
+box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);}
+img {
+max-width: 100%;
+}
+
+/* Header styles */
+header {
+background-color: gray;
+padding: 20px;
+text-align: center;
+}
+header h1 {
+margin: 0;
+font-size: 36px;
+color: #fff;
+
+}
+
+/* Main content styles */
+.main-content h4 {
+background-color: gray;
+color: #fff;
+font-size: 24px;
+padding: 10px 20px;
+margin-top: 30px;
+}
+.main-content h2 {
+font-size: 36px;
+margin-top: 20px;
+margin-bottom: 0;
+}
+.main-content p {
+margin-top: 10px;
+}
+h2 {
+background-color: gray;
+color: #fff;
+font-size: 24px;
+padding: 10px 20px;
+margin-top: 30px;
+}
+h4 {
+margin-top: 20px;
+margin-bottom: 10px;
+font-size: 1.2em;
+text-transform: uppercase;
+border-top: 1px solid #ccc;
+padding-top: 20px;
+}
+p {
+line-height: 1.5;
+}
+
+.next{
+margin-left: 10%;
+}
+
+#a{
+    margin-left: 150px;
+}
+
+#b{
+
+}

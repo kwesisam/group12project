@@ -1,0 +1,213 @@
+    body{
+    margin: 0;
+    padding: 0;
+   /* background:linear-gradient(rgb(0,0,0,0.75), rgba(0, 0, 0, 0.75),rgba(0, 35, 131, 0.75)), url(IMAGE/homeback.jpeg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat*/
+    background-color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+main{
+    display: flex;
+}
+
+h1{
+    width: 9%;
+    text-align: center;
+    background-color: gray;
+    padding: 20px   ;
+    color: #fff;
+    height: 40px;
+
+}
+h2{
+    padding: 5px 0px 5px 0px;
+    height: 40px;
+}
+.main-content{
+    width: 70%;
+    margin: 0 auto;
+    color: black;
+    box-shadow: 0px 10px 40px gray;
+    margin-left: 33%;
+ 
+}
+.div1 p{
+    font-size: x-large;
+    line-height: 30px;
+    text-align: center;
+}
+
+img{
+    float: left;
+    width: 80%;
+    margin-left: 70px;
+    height: 400px;
+    box-sizing: 10px 10px 10px gray;
+    margin-bottom: 20px;
+}
+.div1{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.roll{
+    background-image: url(../IMAGES/prof1.jpg);
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 70px;
+    height: 400px;
+    box-sizing: 10px 10px 10px gray;
+    margin-bottom: 20px;
+}
+
+.roll:hover{
+    transition-delay: 0.3;
+    background-image: url(../IMAGES/PROF.jpg);
+}
+footer {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    border-top: 1px solid #CCCCCC;
+}
+
+/*#eae7dc  #d8c3a5, #8e8d8a, #e98074, #e85a4f*/
+.log{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}
+.log .log_name{
+    margin-top: 17px;
+    margin-left: 5px;
+    font-size: large;
+    color: ;
+}
+.logo{
+    width: 60px;
+    height: 60px;   
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: -70px;
+}
+.sideBar{
+    width: 290px;
+    background-color: #d8c3a5;
+    box-sizing: border-box;
+    height: 100%;
+    position: fixed;    
+}
+
+.sideBar h2{
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+}
+
+.sideBar a{
+    margin-bottom: 10px;
+    border: 2px solid black;
+    display: block;
+    width: inherit;
+    height: inherit;
+    padding: 10px ;
+    text-align: center;
+    color: black;
+}
+
+.sideBar a:hover{
+    transition-delay: .2s;
+    color: white;
+    background-color: #e85a4f;
+}
+
+.sideBar li{
+    margin: 30px;
+    text-align: left;
+    margin-left: -30px;
+}
+
+.main{
+    width: 90%;
+}
+.main h1{
+    position: relative;
+    top: -20px;
+    width: 98%;
+    padding: 10px;
+    height: 50px;
+}
+
+.div1 img{
+    /*width: 300px; 
+    height: 400px;
+    -webkit-box-shadow: 0px 0px 40px 9px rgba(0,0,0,0.6); 
+    box-shadow: 0px 0px 40px 9px rgba(0,0,0,0.4);
+    border-radius: 10px; padding:20px;*/
+
+}/*
+.div2{
+   
+ width: 50%;
+ height: 200PX;
+text-align: right;
+}
+.div3{
+    width: 25%;
+    height: 400PX;
+    float: left;
+    justify-content: center;
+    
+    border-radius: 50px;
+    
+}
+.div4{
+ width: 75%;
+ height: 400PX;
+float: right;
+
+border-radius: 50px;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+
+}
+h2{
+    font-size: 18px;
+    color: white;
+    padding-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ p{
+   
+font-size: 25px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding: 10px;
+color: white;
+
+
+}*/

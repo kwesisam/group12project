@@ -1,0 +1,135 @@
+body{
+         font-family: Arial, sans-serif;
+        margin: 0;
+    padding: 0;
+    
+
+}
+
+main{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+        .log{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px ;
+    margin-bottom: -20px;
+}
+.log .log_name{
+    margin-top: 17px;
+    margin-left: 5px;
+    font-size: x-large;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    
+   
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;  
+}
+.sideBar{
+    width: 250px;
+    background-color: #d8c3a5;
+    box-sizing: border-box;
+    height: 700px;
+    position: sticky;
+    top: 0;
+    z-index: 7;
+}
+
+.sideBar h2{
+    text-align: center;
+    padding: 20px;
+    background-color: gray;
+    margin-top: 30px;
+    color: white;
+}
+
+.sideBar a{
+    margin-bottom: 10px;
+    border: 2px solid black;
+    display: block;
+    width: inherit;
+    height: inherit;
+    padding: 6px ;
+    text-align: center;
+}
+
+.sideBar a:hover{
+    transition-delay: .2s;
+    color: white;
+    background-color: #e85a4f;
+}
+
+.sideBar li{
+    margin: 30px;
+    text-align: left;
+    margin-left: -30px;
+}
+.summary{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 0px;
+
+}
+.summary .a h1{
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.a{
+    width: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: -60px;
+    box-shadow: -1px 3px 100px gray;    
+}
+.a p{
+    color: black;
+    text-align: center;
+}
+
+
+
+p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    color: white;
+    line-height: 40px;
+
+}
+.PARA{
+    padding:20px;
+}
+
+footer {
+    background-color: #F5F5F5;
+    padding: -10px;
+    height: 90px;
+    background-color: gray;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #666666;
+    border-top: 1px solid #CCCCCC;
+}
+    
+
+#o{
+     color: white;
+}
