@@ -5,7 +5,7 @@
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat*/
-    background-color: #fff;
+    background-color: #f2f2f2;
 }
 
 a{
@@ -28,6 +28,15 @@ h1{
     height: 40px;
 
 }
+div .hr{
+    margin: 0 auto;
+  width: 95%;
+  position: relative;
+  height: 50px;
+  top: 30px;
+  font-size: 20px;
+  margin-bottom: 80px;
+}
 h2{
     padding: 5px 0px 5px 0px;
     height: 40px;
@@ -36,8 +45,8 @@ h2{
     width: 70%;
     margin: 0 auto;
     color: black;
-    box-shadow: 0px 10px 40px gray;
     margin-left: 33%;
+    background-color: white;
  
 }
 .div1 p{
@@ -75,17 +84,28 @@ img{
     transition-delay: 0.3;
     background-image: url(../IMAGES/PROF.jpg);
 }
-footer {
-    background-color: gray;
-    color: white;
-    padding: 10px;
-    margin-top: 50px;
-    text-align: center;
-    font-size: 14px;
-    font-family: Arial, sans-serif;
-    border-top: 1px solid #CCCCCC;
+.nb{
+    padding-bottom: 20px;
 }
-
+footer {
+    height: 25px;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #ccc;
+    background-color: gray;
+    padding-bottom: 20px;
+}
+footer p{
+    position: relative;
+    top: -24px;
+    font-size: 10px;
+}
 /*#eae7dc  #d8c3a5, #8e8d8a, #e98074, #e85a4f*/
 .log{
     display: flex;
@@ -96,8 +116,8 @@ footer {
 .log .log_name{
     margin-top: 17px;
     margin-left: 5px;
-    font-size: large;
-    color: ;
+    font-size: x-large;
+  
 }
 .logo{
     width: 60px;
@@ -110,7 +130,7 @@ footer {
     left: -70px;
 }
 .sideBar{
-    width: 290px;
+    width: 250px;
     background-color: #d8c3a5;
     box-sizing: border-box;
     height: 100%;
@@ -158,56 +178,3 @@ footer {
     padding: 10px;
     height: 50px;
 }
-
-.div1 img{
-    /*width: 300px; 
-    height: 400px;
-    -webkit-box-shadow: 0px 0px 40px 9px rgba(0,0,0,0.6); 
-    box-shadow: 0px 0px 40px 9px rgba(0,0,0,0.4);
-    border-radius: 10px; padding:20px;*/
-
-}/*
-.div2{
-   
- width: 50%;
- height: 200PX;
-text-align: right;
-}
-.div3{
-    width: 25%;
-    height: 400PX;
-    float: left;
-    justify-content: center;
-    
-    border-radius: 50px;
-    
-}
-.div4{
- width: 75%;
- height: 400PX;
-float: right;
-
-border-radius: 50px;
-}
-
-h1{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-
-}
-h2{
-    font-size: 18px;
-    color: white;
-    padding-top: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
- p{
-   
-font-size: 25px;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-padding: 10px;
-color: white;
-
-
-}*/

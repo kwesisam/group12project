@@ -28,7 +28,8 @@ nav{
 div.subA{
     margin-top: 5px;
     display: flex;
-    justify-content: space-between;
+    //justify-content: space-between;
+    width: 100%;
 }
 
 div.subA .logo{
@@ -366,4 +367,9 @@ input::placeholder{
 .why{
     text-align: center;
     line-height: 30px;
+}
+
+.ak{
+    position: relative;
+    top: -15    px;
 }
